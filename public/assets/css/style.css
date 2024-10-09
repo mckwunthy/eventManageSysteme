@@ -1,0 +1,175 @@
+/*base.php*/
+div.container {
+    min-height: 75vh;
+}
+
+/*nav_bar.php*/
+nav div a.navbar-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: red;
+}
+
+footer {
+    background-color: black;
+    color: red;
+    height: 150px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*event.php*/
+div.event {
+    border: 2px solid black;
+    max-width: 300px;
+    padding: 2px;
+    margin: 15px auto;
+}
+
+div.event div.img {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+}
+
+div.event div.img img {
+    width: 98%;
+    height: 98%;
+    /* margin: 1.5px; */
+}
+
+div.event-body div.action_todo a {
+    border-radius: 0;
+    border: 1px solid green;
+}
+
+div.event-body div.action_todo a:nth-child(1) {
+    background-color: orange;
+}
+
+div.event-body div.action_todo a:nth-child(2) {
+    background-color: black;
+}
+
+/*create_event.php*/
+div.create_form {
+    border: 5px solid orange;
+    border-radius: 10px;
+}
+
+div.create_form form {
+    padding-bottom: 10px;
+}
+
+div.create_form form label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: green;
+}
+
+/*create_event.php*/
+div.create_form input {
+    width: 100%;
+}
+
+div.create_form button {
+    width: 100%;
+    background-color: orange;
+    border: 1px solid green;
+}
+
+div.row div.right-box {
+    width: 700px;
+    height: 300px;
+    margin: auto auto;
+    background-image: url("../img/createevent.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*nav_bar.php*/
+form.signin {
+    height: 30px;
+    margin: auto 0;
+}
+
+form.signin input {
+    width: 200px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form.signin button {
+    width: 70px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+}
+
+form.signin+button {
+    width: 150px;
+    height: 30px;
+    margin: auto 0;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+}
+
+div.collapse ul.navbar-nav li.username {
+    position: absolute;
+    right: 5px;
+}
+
+div.collapse ul.navbar-nav a.username {
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+
+div.createAccountBox {
+    width: 550px;
+    border: 5px ridge black;
+    padding: 50px;
+    position: absolute;
+    top: 15vh;
+    left: 30vw;
+    background-color: teal;
+    color: white;
+}
+
+form#createAccountForm div.d-flex {
+    width: 100%;
+    font-weight: bold;
+}
+
+form#createAccountForm select#sexe {
+    height: 40px;
+    border-radius: 5px;
+}
+
+/*single_event.php*/
+div.single_event {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+div.single_event div.img {
+    width: 70vw;
+    height: 300px;
+    border: 2px ridge teal;
+    margin: 10px auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.single_event div.img img {
+    width: 100%;
+    height: 100%;
+}
+
+div.single_event .description {
+    text-align: justify;
+}
